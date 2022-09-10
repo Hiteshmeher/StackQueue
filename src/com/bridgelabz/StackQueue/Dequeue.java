@@ -4,7 +4,7 @@ package com.bridgelabz.StackQueue;
  * @author HITESH
  *
  */
-public class Enqueue {
+public class Dequeue {
 	/**
 	 * 
 	 * @param args
@@ -17,5 +17,13 @@ public class Enqueue {
 		list.append(30);
 		list.append(70);
 		list.display();
+		System.out.println("Node size is " +list.size());
+		// Dequeue Operation
+		System.out.println("\nDequeue Operation");
+		   while(list.size() != 0){
+		       list.pop();
+			   list.display();
+		   }
+		   System.out.println("\nThe Stack is empty....");
 	}
 }
