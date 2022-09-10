@@ -1,5 +1,9 @@
 package com.bridgelabz.StackQueue;
-
+/**
+ * 
+ * @author HITESH
+ *
+ */
 public class LinkedList {
 
 	Node head;
@@ -28,6 +32,18 @@ public class LinkedList {
 		} else {
 			newNode.next = head;
 			head = newNode;
+		}
+	}
+	
+	public void append(int data) {
+		// Appending data
+		Node newNode = new Node(data);
+		if(head == null) {
+			head = newNode;
+			tail = newNode;
+		} else {
+			tail.next = newNode;
+			tail = newNode;
 		}
 	}
 	

@@ -1,6 +1,9 @@
 package com.bridgelabz.StackQueue;
-
-
+/**
+ * 
+ * @author HITESH
+ *
+ */
 public class Stack {
 	public static void main(String[] args) {
 		/**
